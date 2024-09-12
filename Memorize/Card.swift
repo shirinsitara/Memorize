@@ -1,10 +1,3 @@
-//
-//  Card.swift
-//  Memorize
-//
-//  Created by Shirin Sitara AJ on 01/08/2024.
-//
-
 import Foundation
 
 struct Card: Equatable, Identifiable, CustomDebugStringConvertible {
