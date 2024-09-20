@@ -1,10 +1,3 @@
-//
-//  Celebration.swift
-//  Memorize
-//
-//  Created by Shirin Sitara AJ on 02/08/2024.
-//
-
 import SwiftUI
 import ConfettiSwiftUI
 
