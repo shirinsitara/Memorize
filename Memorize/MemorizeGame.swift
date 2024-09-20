@@ -12,7 +12,7 @@ struct MemoryGame: Equatable {
         lhs.cards == rhs.cards
     }
 
-    private (set) var cards: Array<Card>
+    private(set) var cards: Array<Card>
     private let completion: () -> Void
     var score: Int = 0
     
@@ -58,8 +58,10 @@ struct MemoryGame: Equatable {
                         cards[chosenIndex].isVisible = false
                         cards[potentialMatchIndex].isVisible = false
                         score += 10
+                    } else {
+                        score -= 5
                     }
-                    
+
                     //last pair
                     visibleCards = 0
                     for index in cards.indices{
